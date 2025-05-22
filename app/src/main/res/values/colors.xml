@@ -1,21 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary Colors -->
     <color name="primary">#6366F1</color>
     <color name="primary_variant">#4F46E5</color>
+    <color name="primary_light">#8B5CF6</color>
+    <color name="primary_dark">#3730A3</color>
+
+    <!-- Secondary Colors -->
     <color name="secondary">#EC4899</color>
     <color name="secondary_variant">#DB2777</color>
+    <color name="secondary_light">#F472B6</color>
+    <color name="secondary_dark">#BE185D</color>
+
+    <!-- Accent Colors -->
+    <color name="accent">#10B981</color>
+    <color name="accent_light">#34D399</color>
+    <color name="accent_dark">#047857</color>
+
+    <!-- Background & Surface -->
     <color name="background">#FFFFFF</color>
+    <color name="background_secondary">#FAFBFC</color>
     <color name="surface">#F8FAFC</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="surface_elevated">#FFFFFF</color>
+
+    <!-- Status Colors -->
     <color name="error">#EF4444</color>
+    <color name="error_light">#F87171</color>
+    <color name="error_dark">#DC2626</color>
+    <color name="success">#10B981</color>
+    <color name="success_light">#34D399</color>
+    <color name="success_dark">#047857</color>
+    <color name="warning">#F59E0B</color>
+    <color name="warning_light">#FBBF24</color>
+    <color name="warning_dark">#D97706</color>
+    <color name="info">#3B82F6</color>
+    <color name="info_light">#60A5FA</color>
+    <color name="info_dark">#1D4ED8</color>
+
+    <!-- Text Colors -->
     <color name="on_primary">#FFFFFF</color>
     <color name="on_secondary">#FFFFFF</color>
     <color name="on_background">#1E293B</color>
     <color name="on_surface">#1E293B</color>
     <color name="on_surface_variant">#64748B</color>
     <color name="on_error">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_tertiary">#94A3B8</color>
+    <color name="text_disabled">#CBD5E1</color>
+
+    <!-- Border & Divider Colors -->
+    <color name="border">#E2E8F0</color>
+    <color name="border_light">#F1F5F9</color>
+    <color name="border_focus">#6366F1</color>
+    <color name="divider">#E2E8F0</color>
+    <color name="divider_light">#F1F5F9</color>
 
     <!-- Message colors -->
     <color name="message_sent">#E0E7FF</color>
     <color name="message_received">#F1F5F9</color>
     <color name="message_border">#E2E8F0</color>
+    <color name="message_timestamp">#94A3B8</color>
+
+    <!-- Interactive States -->
+    <color name="ripple_primary">#6366F1</color>
+    <color name="ripple_secondary">#EC4899</color>
+    <color name="hover_primary">#E0E7FF</color>
+    <color name="hover_secondary">#FCE7F3</color>
+    <color name="pressed_primary">#C7D2FE</color>
+    <color name="pressed_secondary">#F9A8D4</color>
+
+    <!-- Card & Component Colors -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_elevated">#FFFFFF</color>
+    <color name="card_border">#E2E8F0</color>
+    <color name="card_shadow">#1E293B</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary">#6366F1</color>
+    <color name="button_primary_pressed">#4F46E5</color>
+    <color name="button_secondary">#F1F5F9</color>
+    <color name="button_secondary_pressed">#E2E8F0</color>
+    <color name="button_outline">#E2E8F0</color>
+    <color name="button_ghost">#00000000</color>
+
+    <!-- Input Field Colors -->
+    <color name="input_background">#FFFFFF</color>
+    <color name="input_border">#E2E8F0</color>
+    <color name="input_border_focus">#6366F1</color>
+    <color name="input_hint">#94A3B8</color>
+    <color name="input_error">#EF4444</color>
+
+    <!-- Chip Colors -->
+    <color name="chip_background">#F1F5F9</color>
+    <color name="chip_background_selected">#E0E7FF</color>
+    <color name="chip_text">#475569</color>
+    <color name="chip_text_selected">#4F46E5</color>
+
+    <!-- Progress & Loading -->
+    <color name="progress_background">#E2E8F0</color>
+    <color name="progress_foreground">#6366F1</color>
+    <color name="loading_shimmer">#F1F5F9</color>
+
+    <!-- Navigation -->
+    <color name="nav_background">#FFFFFF</color>
+    <color name="nav_item_active">#6366F1</color>
+    <color name="nav_item_inactive">#94A3B8</color>
+    <color name="nav_indicator">#6366F1</color>
+
+    <!-- Dark Theme Support (Optional) -->
+    <color name="dark_background">#0F172A</color>
+    <color name="dark_surface">#1E293B</color>
+    <color name="dark_surface_variant">#334155</color>
+    <color name="dark_text_primary">#F8FAFC</color>
+    <color name="dark_text_secondary">#CBD5E1</color>
+    <color name="dark_border">#334155</color>
+
+    <!-- Utility Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+    <color name="overlay">#4D000000</color>
+    <color name="shadow_light">#0F172A</color>
+    <color name="shadow_medium">#0F172A</color>
+    <color name="shadow_strong">#0F172A</color>
 </resources>

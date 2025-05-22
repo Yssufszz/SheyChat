@@ -30,11 +30,11 @@
     <string name="profile_information">Profile Information</string>
     <string name="your_code">Your Code (Share this with friends):</string>
     <string name="user_id">User ID:</string>
-    <string name="tip_message">💡 Tip: Share your code with friends so they can start a private chat with you!</string>
+    <string name="tip_message">💡 Tip: Share kode profile kamu ke temen biar bisa chat bareng</string>
 
     <!-- Dialog -->
-    <string name="start_private_chat">Start Private Chat</string>
-    <string name="enter_user_code">Enter user code (6 digits)</string>
+    <string name="start_private_chat">Mulai Chat Private</string>
+    <string name="enter_user_code">Masukin 6 digit id code teman anda</string>
     <string name="start_chat">Start Chat</string>
     <string name="cancel">Cancel</string>
 

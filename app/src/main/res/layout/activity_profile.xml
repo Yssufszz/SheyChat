@@ -64,7 +64,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Your Code (Share this with friends):"
+                android:text="Kode Profile kamu (Share ke temen):"
                 android:textSize="14sp"
                 android:textStyle="bold"
                 android:layout_marginBottom="4dp" />
@@ -102,7 +102,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="💡 Tip: Share your code with friends so they can start a private chat with you!"
+        android:text="💡 Tip: Share kode profile kamu ke temen biar bisa chat bareng"
         android:textSize="14sp"
         android:background="@color/surface"
         android:padding="12dp"

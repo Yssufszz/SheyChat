@@ -62,10 +62,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun showPrivateChatDialog() {
         val builder = AlertDialog.Builder(this)
-        builder.setTitle("Start Private Chat")
+        builder.setTitle("Mulai Chat Private")
 
         val input = android.widget.EditText(this)
-        input.hint = "Enter user code (6 digits)"
+        input.hint = "Masukin 6 digit id code teman anda"
         builder.setView(input)
 
         builder.setPositiveButton("Start Chat") { _, _ ->
