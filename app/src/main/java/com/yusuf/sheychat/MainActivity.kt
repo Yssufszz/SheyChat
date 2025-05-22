@@ -36,17 +36,17 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupClickListeners() {
-        binding.btnGlobalChat.setOnClickListener {
+        binding.cardGlobalChat.setOnClickListener {
             val intent = Intent(this, ChatActivity::class.java)
             intent.putExtra("chatType", Constants.CHAT_TYPE_GLOBAL)
             startActivity(intent)
         }
 
-        binding.btnPrivateChat.setOnClickListener {
+        binding.cardPrivateChat.setOnClickListener {
             showPrivateChatDialog()
         }
 
-        binding.btnProfile.setOnClickListener {
+        binding.cardProfile.setOnClickListener {
             startActivity(Intent(this, ProfileActivity::class.java))
         }
 

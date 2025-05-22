@@ -2,12 +2,13 @@ package com.yusuf.sheychat.data.model
 
 data class User(
     val uid: String = "",
-    val username: String = "",
+    var username: String = "",
     val email: String = "",
     val profileImageUrl: String = "",
-    val isOnline: Boolean = false,
-    val lastSeen: Long = System.currentTimeMillis(),
-    val userCode: String = ""
+    var isOnline: Boolean = false,
+    var lastSeen: Long = System.currentTimeMillis(),
+    val userCode: String = "",
+    var lastUsernameChange: Long = 0
 ) {
     fun toMap(): Map<String, Any> {
         return mapOf(
@@ -17,7 +18,8 @@ data class User(
             "profileImageUrl" to profileImageUrl,
             "isOnline" to isOnline,
             "lastSeen" to lastSeen,
-            "userCode" to userCode
+            "userCode" to userCode,
+            "lastUsernameChange" to lastUsernameChange
         )
     }
 }

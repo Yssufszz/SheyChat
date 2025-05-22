@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:minHeight="match_parent">
+        android:minHeight="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,6 +85,8 @@
                         android:layout_height="wrap_content"
                         android:hint="Email Address"
                         android:inputType="textEmailAddress"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary"
                         android:textSize="16sp"
                         android:padding="16dp" />
 
@@ -114,6 +116,8 @@
                         android:hint="Password"
                         android:inputType="textPassword"
                         android:textSize="16sp"
+                        android:textColor="@color/text_primary"
+                        android:textColorHint="@color/text_secondary"
                         android:padding="16dp" />
 
                 </com.google.android.material.textfield.TextInputLayout>

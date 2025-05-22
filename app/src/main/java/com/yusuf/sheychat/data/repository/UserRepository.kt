@@ -34,7 +34,7 @@ class UserRepository {
 
             auth.signOut()
 
-            Result.success("Registration successful! Please check your email and click the verification link before logging in.")
+            Result.success("Registrasi berhasil! Cek email kamu ya, terus klik link verifikasinya sebelum login.")
         } catch (e: Exception) {
             Result.failure(e)
         }
@@ -48,7 +48,7 @@ class UserRepository {
             firebaseUser.reload().await()
             if (!firebaseUser.isEmailVerified) {
                 auth.signOut()
-                throw Exception("Please verify your email first. Check your inbox for verification link.")
+                throw Exception("Tolong verifikasi email kamu dulu ya. Cek inbox buat link verifikasinya.")
             }
 
             val userId = firebaseUser.uid
@@ -75,9 +75,9 @@ class UserRepository {
             val currentUser = auth.currentUser
             if (currentUser != null && !currentUser.isEmailVerified) {
                 currentUser.sendEmailVerification().await()
-                Result.success("Verification email sent! Please check your inbox.")
+                Result.success("Email verifikasi sudah dikirim! Cek inbox kamu ya.")
             } else {
-                Result.failure(Exception("No user found or email already verified"))
+                Result.failure(Exception("User gak ketemu atau email-nya udah pernah diverifikasi sebelumnya."))
             }
         } catch (e: Exception) {
             Result.failure(e)
