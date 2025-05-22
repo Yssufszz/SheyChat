@@ -1,3 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SheyChat</string>
+
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="dont_have_account">Don\'t have an account? Register here</string>
+    <string name="already_have_account">Already have an account? Login here</string>
+    <string name="resend_verification">Didn\'t receive verification email? Resend</string>
+    <string name="email_verification_required">Email Verification Required</string>
+
+    <!-- Main Menu -->
+    <string name="welcome_message">Welcome! Choose your chat option</string>
+    <string name="global_chat">🌍 Global Chat</string>
+    <string name="private_chat">💬 Private Chat</string>
+    <string name="profile">👤 Profile</string>
+    <string name="logout">Logout</string>
+
+    <!-- Chat -->
+    <string name="type_message">Type a message...</string>
+    <string name="send_message">Send message</string>
+    <string name="chat_with">Chat with %s</string>
+    <string name="global_chat_title">Global Chat</string>
+
+    <!-- Profile -->
+    <string name="profile_information">Profile Information</string>
+    <string name="your_code">Your Code (Share this with friends):</string>
+    <string name="user_id">User ID:</string>
+    <string name="tip_message">💡 Tip: Share your code with friends so they can start a private chat with you!</string>
+
+    <!-- Dialog -->
+    <string name="start_private_chat">Start Private Chat</string>
+    <string name="enter_user_code">Enter user code (6 digits)</string>
+    <string name="start_chat">Start Chat</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Messages -->
+    <string name="login_successful">Login successful</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="please_fill_all_fields">Please fill all fields</string>
+    <string name="please_enter_user_code">Please enter a user code</string>
+    <string name="user_not_found">User not found</string>
+    <string name="failed_to_send_message">Failed to send message</string>
+    <string name="error_loading_messages">Error loading messages</string>
+    <string name="you">You</string>
 </resources>
