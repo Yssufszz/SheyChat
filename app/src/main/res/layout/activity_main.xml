@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Connect with friends around the world"
+            android:text="Gabung dan ngobrol seru bareng teman-teman dari seluruh dunia!"
             android:textSize="16sp"
             android:textColor="@color/text_secondary"
             android:layout_marginBottom="48dp"
@@ -87,7 +87,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Join public conversations"
+                        android:text="Ikutan ngobrol di obrolan publik, yuk!"
                         android:textSize="14sp"
                         android:textColor="@color/text_secondary" />
 
@@ -148,7 +148,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="One-on-one conversations"
+                        android:text="Ngobrol santai berdua aja, lebih dekat!"
                         android:textSize="14sp"
                         android:textColor="@color/text_secondary" />
 
@@ -239,7 +239,7 @@
             android:id="@+id/btnLogout"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:text="Sign Out"
+            android:text="Log Out"
             android:textSize="16sp"
             android:textColor="@color/error"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
