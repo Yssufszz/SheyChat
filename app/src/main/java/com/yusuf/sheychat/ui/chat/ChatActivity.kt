@@ -63,7 +63,8 @@ class ChatActivity : AppCompatActivity() {
             val message = binding.etMessage.text.toString().trim()
             if (message.isNotEmpty()) {
                 sendMessage(message)
-                binding.etMessage.text.clear()
+                binding.etMessage.text?.clear()
+
             }
         }
     }
